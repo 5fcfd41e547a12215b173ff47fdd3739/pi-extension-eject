@@ -1,0 +1,14 @@
+{
+  "name": "pi-eject",
+  "version": "0.1.0",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "description": "Scaffold `.pi/SYSTEM.md` to bootstrap a purpose-driven local agent",
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*"
+  },
+  "pi": {
+    "extensions": ["./src/eject"]
+  }
+}
